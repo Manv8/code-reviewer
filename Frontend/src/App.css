@@ -30,7 +30,7 @@ body,
   justify-content: center;
   align-items: center;
   padding: 6rem 1.25rem; /* 24px padding on the vertical and 5px on the horizontal */
-  background: radial-gradient(125% 125% at 50% 10%, #000000ec 40%, #63e 100%); /* Dark theme */
+  background: radial-gradient(125% 125% at 50% 10%, #37373774 40%, rgb(186, 168, 233) 100%); /* Dark theme */
   height: 100%;
   width: 100%;
   display: flex;
@@ -50,7 +50,7 @@ body,
 
 /* Gradient text style for h1 */
 h1 {
-  color: #fff;
+  color: #ffffff;
   text-align: center;
   font-family: Roboto, "Helvetica Neue", Arial, sans-serif;
   font-size: 2.5vw;
@@ -58,29 +58,8 @@ h1 {
   line-height: 6vw;
   text-transform: uppercase;
   word-spacing: 2vw;
-  background: linear-gradient(
-    var(--angle),
-    var(--color-1) 19%,
-    transparent 19%,
-    transparent 20%,
-    var(--color-2) 20%,
-    var(--color-2) 39%,
-    transparent 39%,
-    transparent 40%,
-    var(--color-3) 40%,
-    var(--color-3) 59%,
-    transparent 59%,
-    transparent 60%,
-    var(--color-4) 60%,
-    var(--color-4) 79%,
-    transparent 79%,
-    transparent 80%,
-    var(--color-5) 80%
-  );
-  background-clip: text;
-  -webkit-background-clip: text;
-  color: transparent;
-  animation: 10s rotate linear infinite;
+
+
 }
 .main .left .editor-container * {
   word-wrap: break-word; /* Ensures that long words don't break the layout */
